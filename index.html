@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML TAG Sample FORM</title>
+  </head>
+  <body>
+    <h1>FORM SAMPLE</h1>
+    <form action="" method="">
+            NAME : <input type="text" name="name"><br>
+            E-mail : <input type="email" name="email" size="40"><br>
+            MESSAGE : <br>
+            <textarea name="message" rows="4" cols="40">
+                ここにメッセージを入力して下さい。
+            </textarea>
+            <br>
+            FILE : <input type="file" name="file"><br>
+            CHECK : <input type="checkbox" name="check" value="1">A
+                    <input type="checkbox" name="check" value="2">B
+                    <input type="checkbox" name="check" value="3">C<br>
+            RADIO : <input type="radio" name="radio" value="1">合格
+                    <input type="radio" name="radio" value="2">不合格<br>
+            DATE : <input type="date" name="date"><br>
+            TIME : <input type="time" name="time"><br>
+            NUMBER : <input type="number" min="0" max="10" name="num"><br>
+            RANGE : <input type="range" min="0" max="100" name="range"><br>
+            PASS : <input type="password" name="password" value="******"><br>
+            <input type="submit" name="submit" value="送信"><br>
+        </form>
+        <p>サンプルです。送信しても何も起こりません.</p>
+        <form action="http://www.google.com/search" method="get">
+         <label >Google: </label>
+        <input type="search" name="q">
+        </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.469670270143!2d130.44217876520509!3d33.670900830711375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35418f32335ca2c3%3A0xddc7b05c34d5e30b!2z5Lmd5bee55Sj5qWt5aSn5a2m!5e0!3m2!1sja!2sjp!4v1619510057603!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </body>
+</html>
